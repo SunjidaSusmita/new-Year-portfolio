@@ -1,14 +1,27 @@
 .head{
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-
+    background-position: top right bottom left;
 }
-
-.nav-tittle{
+.nav-title{
+    padding:  200px 200px 200px 800px;
     text-align: right;
-    padding: 400px 400px 200px 800px;
-
+    justify-content: space-between;
 }
 #title-text{
-    font-size: 800px;
+    font-weight: 200;
+    font-size: 60px;
+}
+#short-text{
+    font-size: 20px;
+    color:darkgray;
+}
+#btn{
+    color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #fd6e0a;
+    font-weight: 700;
+    font-size: 15px;
 }

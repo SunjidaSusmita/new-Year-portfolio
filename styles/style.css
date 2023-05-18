@@ -1,4 +1,14 @@
 .head{
     background-image: url(../images/banner/banner1.png);
-    
+    background-repeat: no-repeat;
+
+}
+
+.nav-tittle{
+    text-align: right;
+    padding: 400px 400px 200px 800px;
+
+}
+#title-text{
+    font-size: 800px;
 }

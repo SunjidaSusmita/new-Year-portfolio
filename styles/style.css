@@ -5,18 +5,17 @@
 }
 .nav-title{
     padding:  200px 200px 200px 800px;
-    text-align: right;
-    justify-content: space-between;
+    text-align: right; 
 }
-#title-text{
-    font-weight: 200;
+.title-text{
     font-size: 60px;
+    font-weight: 700;
 }
-#short-text{
+.short-text{
     font-size: 20px;
     color:darkgray;
 }
-#btn{
+.btn{
     color: aliceblue;
     padding: 20px 40px;
     border-radius: 5px;

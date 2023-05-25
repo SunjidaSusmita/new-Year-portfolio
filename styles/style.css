@@ -1,26 +1,81 @@
 .head{
     background-image: url(../images/banner/banner1.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: top right bottom left;
 }
-.nav-title{
-    padding:  200px 200px 200px 800px;
-    text-align: right; 
+nav{
+    text-align: right;
+    padding-right: 200px;
+    padding-left: 850px;
+    padding-top: 200px;
 }
-.title-text{
-    font-size: 60px;
+#title-text{
+    margin: 0;
     font-weight: 700;
+    font-size: 65px;
 }
 .short-text{
-    font-size: 20px;
-    color:darkgray;
+    font-size: 16px;
+    color: rgb(91, 90, 90);
+    line-height: 25px;
 }
-.btn{
+#btn{
     color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 180px;
     padding: 20px 40px;
     border-radius: 5px;
     border: 0;
     background-color: #fd6e0a;
     font-weight: 700;
     font-size: 15px;
+}
+/* main section */ 
+.img{
+    padding: 150px 80px 0 150px;
+}
+.first-section{
+    display: flex;
+}
+.paragraph{
+    margin-top: 350px;
+    margin-right: 380px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.tik{
+    color: rgb(35, 191, 87);
+}
+.second-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+}
+.icn-msg{
+    margin: 15px 0;
+    font-weight: 700;
+}
+.icon-text{
+    margin: 0;
+    color: rgb(91, 90, 90);
+}
+.third-section{
+    padding: 120px 200px;
+}
+.watch-img{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+}
+
+#third-title{
+    font-weight: 700;
+    font-size: 45px;
 }

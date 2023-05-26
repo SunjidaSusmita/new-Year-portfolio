@@ -31,11 +31,11 @@ nav{
     font-size: 15px;
 }
 /* main section */ 
-.img{
-    padding: 150px 80px 0 150px;
-}
 .first-section{
     display: flex;
+}
+.img{
+    padding: 150px 80px 0 150px;
 }
 .paragraph{
     margin-top: 350px;
@@ -102,10 +102,15 @@ nav{
     color: aliceblue;
     display: flex;
 }
-
 #footer-text{
     padding: 80px 400px 100px 200px;
     line-height: 25px;
+}
+#social-media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 250px;
 }
 #subs{
     padding: 80px 200px 100px 0;
@@ -113,12 +118,6 @@ nav{
 #subs-text{
     font-weight: 500;
     font-size: 25px;
-}
-#social-media{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-right: 250px;
 }
 #input-box{
     background-color: black;
